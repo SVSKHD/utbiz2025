@@ -7,7 +7,7 @@ import { TooltipProviderWrapper } from "@/components/providers/tooltip-provider"
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Trading Dashboard',
+  title: 'UtBiz Trading Dashboard',
   description: 'Multi-broker trading dashboard with portfolio tracking',
 };
 
