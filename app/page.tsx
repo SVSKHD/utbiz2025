@@ -26,7 +26,7 @@ export default function TradingDashboard() {
                   <Calendar className="h-4 w-4" />
                 </Button>
               </Link>
-              <Link href="/calendar">
+              <Link href="/compare">
                 <Button variant="outline" size="icon" className="h-9 w-9">
                   <ChartBarStacked className="h-4 w-4" />
                 </Button>
