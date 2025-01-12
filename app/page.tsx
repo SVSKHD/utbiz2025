@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { BrokerTab } from "@/components/broker-tab/broker-tab";
 import { AiButton } from "@/components/ai-button";
 import Link from "next/link";
-import { Calendar } from "lucide-react";
+import { Calendar, ChartBarStacked } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function TradingDashboard() {
@@ -24,6 +24,11 @@ export default function TradingDashboard() {
               <Link href="/calendar">
                 <Button variant="outline" size="icon" className="h-9 w-9">
                   <Calendar className="h-4 w-4" />
+                </Button>
+              </Link>
+              <Link href="/calendar">
+                <Button variant="outline" size="icon" className="h-9 w-9">
+                  <ChartBarStacked className="h-4 w-4" />
                 </Button>
               </Link>
               <AiButton />
